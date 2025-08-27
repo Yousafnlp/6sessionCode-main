@@ -1,13 +1,12 @@
 "use client"
 
-import { useEffect, useRef } from "react"
-import { motion, useInView, useMotionValue, useSpring } from "framer-motion"
-import { Card } from "@/components/ui/card"
-import testimonial from '@/assets/testimonial.jpg';
-import Image from "next/image"
-import { Heart, ThumbsUp, Star, ArrowRight } from "lucide-react"
-import { Button } from "./ui/button";
+import testimonial from '@/assets/testimonial.webp';
+import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
+import { Button } from "./ui/button";
 
 // Counter animation component
 function Counter({ value, duration = 2 }: { value: number; duration?: number }) {

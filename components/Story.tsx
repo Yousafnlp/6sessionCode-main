@@ -4,7 +4,7 @@ import { useEffect } from "react"
 
 import { useRef } from "react"
 
-import dp from "@/assets/dp.png"
+import dp from "@/assets/dp.webp"
 import Image from "next/image"
 import { motion, useInView, useMotionValue, useSpring } from "framer-motion"
 import { ArrowRight, Youtube } from "lucide-react"

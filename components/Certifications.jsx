@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import a from "../assets/c1.png";
-import b from "../assets/c2.png";
-import c from "../assets/c3.png";
-import d from "../assets/c4.png";
-import e from "../assets/c5.png";
-import f from "../assets/c6.png";
+import a from "../assets/c1.webp";
+import b from "../assets/c2.webp";
+import c from "../assets/c3.webp";
+import d from "../assets/c4.webp";
+import e from "../assets/c5.webp";
+import f from "../assets/c6.webp";
 
 import { Award, Star } from "lucide-react";
 const certifications = [

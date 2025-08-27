@@ -1,5 +1,5 @@
 
-import logo from "@/assets/logo.png"
+import logo from "@/assets/logo.webp"
 import Image from "next/image"
 
 export default function Header() {

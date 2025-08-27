@@ -55,7 +55,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "hero-texture": "url('../assets/cover.jpeg')",
+        "hero-texture": "url('../assets/cover.webp')",
         "wave-pattern": "url('/wave-pattern.svg')",
       },
       borderRadius: {
