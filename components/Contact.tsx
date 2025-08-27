@@ -37,7 +37,7 @@ export default function Contact() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      let response = await fetch("https://yousafmunawartrainings-backend-live.vercel.app/register", {
+      let response = await fetch("https://yousafmunawartrainings-backend-live-one.vercel.app/register", {
         method: "POST",
         body: JSON.stringify(values),
         headers: {
